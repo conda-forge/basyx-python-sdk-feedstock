@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: basyx-python-sdk
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/b/basyx-python-sdk/basyx_python_sdk-{{ version }}.tar.gz
-  sha256: 4512cd39dddd42d9738977cb750d83cc1f97409f74613d712600ef24a06ccbdf
+  sha256: d665cd2a6bcac5d10237192e10fe10ea54ef5ef93f9cdc8b2148c5afef05a147
 
 build:
   noarch: python
